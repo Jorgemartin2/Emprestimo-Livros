@@ -1,9 +1,52 @@
-Empréstimo Livros(Em Andamento)
+# 📚 Sistema de Empréstimo de Livros
 
-💻 Utiliza-se a tecnologia AspNet MVC, que permite inserir código baseado em servidor(c#) em páginas web. Além disso será implementado a autenticação de dois fatores(2FA), gerenciamento de identidade e acesso, criptografia, auditoria e monitoramento regulares, correção de configurações incorretas e a adoção de uma abordagem baseada em risco para mitigar o máximo de vulnerabilidades.
+## Descrição
 
-📈 Sendo meu foco o desenvolvimento Back-End, estou aplicando aplicar meus conhecimentos em Html, Css e JavaScript para deixar o projeto mais estilizado(Css) e mais interativo(JS).
+Este é um sistema seguro de gerenciamento de empréstimos de livros, desenvolvido em C#. O sistema permite o cadastro e controle de livros, clientes, usuários e empréstimos, garantindo uma gestão eficiente e segura por meio de um sistema de login autenticado.
 
-🎓 Como um estudante de Análise e Desenvolvimento de Sistemas(ADS), estou muito empolgado a ter uma oportunidade na área de desenvolvimento e aplicar meus conhecimentos em um ambiente prático focado na segurança das aplicações. Este projeto não é só para mostrar minhas habilidades técnicas, mas também destacar minha vontade em aprender e evoluir como desenvolvedor.
+## 🚀 Funcionalidades
 
-📞 Estou disposto a oportunidades e desafios na área de desenvolvimento de software. Se você gostaria de saber mais sobre meu projeto, não fique em dúvida, entre em contato comigo!
+- **Login seguro** para acesso ao sistema
+- **Cadastro de livros**, com informações detalhadas
+- **Cadastro de clientes** para controle de quem pode realizar empréstimos
+- **Cadastro de usuários** administrativos para gestão do sistema
+- **Registro de empréstimos e devoluções**
+- **Controle de prazos** para devolução de livros
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Linguagem:** C#
+- **Banco de Dados:** MySql
+- **Framework:** .NET Core ou .NET &+
+- **Interface:** ASP.NET MVC
+
+## 📦 Instalação e Configuração
+
+1. Clone este repositório:
+   ```sh
+   git clone https://github.com/Jorgemartin2/Emprestimo-Livros.git
+   ```
+2. Abra o projeto no Visual Studio
+3. Configure a conexão com o banco de dados no arquivo de configuração
+4. Execute as migrações do banco de dados (caso utilize Entity Framework)
+   ```sh
+   dotnet ef database update
+   ```
+5. Compile e execute o projeto
+
+## 🔒 Segurança
+
+- Implementação de autenticação e autorização de usuários
+- Proteção contra SQL Injection e outras vulnerabilidades
+- Uso de hashing seguro para senhas
+
+## 📜 Licença
+
+Este projeto é distribuído sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+✉️ Para dúvidas ou sugestões, entre em contato com [seu email ou GitHub].
+
+OBSERVAÇÃO : EM DESENVOLVIMENTO.
+
