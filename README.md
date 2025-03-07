@@ -17,7 +17,7 @@ Este é um sistema seguro de gerenciamento de empréstimos de livros, desenvolvi
 
 - **Linguagem:** C#
 - **Banco de Dados:** MySql
-- **Framework:** .NET Core ou .NET &+
+- **Framework:** .NET Core ou .NET 7+
 - **Interface:** ASP.NET MVC
 
 ## 📦 Instalação e Configuração
